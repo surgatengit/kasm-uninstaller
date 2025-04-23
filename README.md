@@ -41,7 +41,7 @@ This script will **completely uninstall Kasm Workspaces** and remove all its Doc
 
 ### 🔧 Direct command to run the script on your server (without manual download):
 
-If your script is already hosted on GitHub, you can run it directly with:
+Run it directly with:
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/surgatengit/kasm-uninstaller/refs/heads/main/uninstall_kasm.sh)
