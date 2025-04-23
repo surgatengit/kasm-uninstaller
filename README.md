@@ -2,6 +2,11 @@
 
 This script completely removes [Kasm Workspaces](https://www.kasmweb.com/) from a Linux server.
 
+Bonus: One line installer with swap and no iteraction.
+```bash
+cd /tmp && curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.17.0.bbc15c.tar.gz && tar -xf kasm_release_1.17.0.bbc15c.tar.gz && sudo bash kasm_release/install.sh --accept-eula --swap-size 8192
+```
+
 ### ✅ Features
 - Automatically detects the installed version of Kasm.
 - Removes containers, volumes, networks, and images created by Kasm.
